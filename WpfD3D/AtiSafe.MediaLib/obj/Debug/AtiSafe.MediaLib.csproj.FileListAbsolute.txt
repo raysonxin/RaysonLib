@@ -1,0 +1,17 @@
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafe.MediaLib\obj\Debug\UserControl1.baml
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafe.MediaLib\obj\Debug\UserControl1.g.cs
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafe.MediaLib\obj\Debug\AtiSafe.MediaLib_MarkupCompile.cache
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafe.MediaLib\obj\Debug\AtiSafe.MediaLib.g.resources
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafe.MediaLib\obj\Debug\AtiSafe.MediaLib.Properties.Resources.resources
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafe.MediaLib\obj\Debug\AtiSafe.MediaLib.csproj.GenerateResource.Cache
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafe.MediaLib\bin\Debug\AtiSafe.MediaLib.dll
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafe.MediaLib\bin\Debug\AtiSafe.MediaLib.pdb
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafe.MediaLib\bin\Debug\SlimDX.dll
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafe.MediaLib\obj\Debug\AtiSafe.MediaLib.dll
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafe.MediaLib\obj\Debug\AtiSafe.MediaLib.pdb
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafe.MediaLib\obj\Debug\PlayerControl\MediaFilePlayer.baml
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafe.MediaLib\obj\Debug\PlayerControl\MediaFilePlayer.g.cs
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafe.MediaLib\obj\Debug\Resources\Style\WpfAmfDic.baml
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafe.MediaLib\obj\Debug\AtiSafe.MediaLib.csprojResolveAssemblyReference.cache
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafe.MediaLib\obj\Debug\PlayerControl\FullWindow.baml
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafe.MediaLib\obj\Debug\PlayerControl\FullWindow.g.cs

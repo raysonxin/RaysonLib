@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{23408EF5-BCBA-443D-8689-0AE3AC431609}</ProjectGuid>
+    <OutputType>library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AtiSafe.MediaLib</RootNamespace>
+    <AssemblyName>AtiSafe.MediaLib</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="SlimDX">
+      <HintPath>..\packages\SlimDX.4.0.13.44\lib\NET40\SlimDX.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="PlayerControl\FullWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PlayerControl\MediaFilePlayer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Style\WpfAmfDic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControl1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Display\AmfDecoder.cs" />
+    <Compile Include="Display\D3DImageSource.cs" />
+    <Compile Include="Display\ExtendMethods.cs" />
+    <Compile Include="Display\SupportFormat.cs" />
+    <Compile Include="Display\Utilities.cs" />
+    <Compile Include="MediaFile\AmfFileReader.cs" />
+    <Compile Include="MediaFile\AmfHeadInfo.cs" />
+    <Compile Include="MediaFile\AmfIndexInfo.cs" />
+    <Compile Include="MediaFile\AmfMediaDecoder.cs" />
+    <Compile Include="MediaFile\AmfTools.cs" />
+    <Compile Include="PlayerControl\FullWindow.xaml.cs">
+      <DependentUpon>FullWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PlayerControl\MediaFilePlayer.xaml.cs">
+      <DependentUpon>MediaFilePlayer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.xaml.cs">
+      <DependentUpon>UserControl1.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\VPCeaseBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\VPCeaseBtnHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\VPStartBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\VPStartBtnHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\VPStopBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\VPStopBtnHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\VPVolumnBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\VPVolumnBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\VPVolumnBtnHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\VPVolumnCloseBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\VPVolumnCloseBtnHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\WindowMaxBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\WindowMaxBtnHover.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,15 @@
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafeMediaToolkitTest\bin\Release\AtiSafeMediaToolkitTest.exe.config
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafeMediaToolkitTest\obj\Release\MainWindow.baml
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafeMediaToolkitTest\obj\Release\MainWindow.g.cs
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafeMediaToolkitTest\obj\Release\App.g.cs
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafeMediaToolkitTest\obj\Release\AtiSafeMediaToolkitTest_MarkupCompile.cache
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafeMediaToolkitTest\obj\Release\AtiSafeMediaToolkitTest.g.resources
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafeMediaToolkitTest\obj\Release\AtiSafeMediaToolkitTest.Properties.Resources.resources
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafeMediaToolkitTest\obj\Release\AtiSafeMediaToolkitTest.csproj.GenerateResource.Cache
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafeMediaToolkitTest\bin\Release\AtiSafeMediaToolkitTest.exe
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafeMediaToolkitTest\bin\Release\AtiSafeMediaToolkitTest.pdb
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafeMediaToolkitTest\bin\Release\AtiSafe.MediaToolKit.dll
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafeMediaToolkitTest\bin\Release\AtiSafe.MediaToolKit.pdb
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafeMediaToolkitTest\obj\Release\AtiSafeMediaToolkitTest.csprojResolveAssemblyReference.cache
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafeMediaToolkitTest\obj\Release\AtiSafeMediaToolkitTest.exe
+E:\Projects\Zhongfang\MonitorPlatform\MonitorSystem\WpfD3D\AtiSafeMediaToolkitTest\obj\Release\AtiSafeMediaToolkitTest.pdb

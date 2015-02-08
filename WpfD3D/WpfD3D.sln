@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtiSafeMediaToolkitTest", "AtiSafeMediaToolkitTest\AtiSafeMediaToolkitTest.csproj", "{51312941-1C72-431F-AE16-94F34E0F5A5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtiSafe.MediaLib", "AtiSafe.MediaLib\AtiSafe.MediaLib.csproj", "{23408EF5-BCBA-443D-8689-0AE3AC431609}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51312941-1C72-431F-AE16-94F34E0F5A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51312941-1C72-431F-AE16-94F34E0F5A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51312941-1C72-431F-AE16-94F34E0F5A5A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{51312941-1C72-431F-AE16-94F34E0F5A5A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{51312941-1C72-431F-AE16-94F34E0F5A5A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{51312941-1C72-431F-AE16-94F34E0F5A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51312941-1C72-431F-AE16-94F34E0F5A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51312941-1C72-431F-AE16-94F34E0F5A5A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{51312941-1C72-431F-AE16-94F34E0F5A5A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{51312941-1C72-431F-AE16-94F34E0F5A5A}.Release|x86.ActiveCfg = Release|Any CPU
+		{23408EF5-BCBA-443D-8689-0AE3AC431609}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23408EF5-BCBA-443D-8689-0AE3AC431609}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23408EF5-BCBA-443D-8689-0AE3AC431609}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{23408EF5-BCBA-443D-8689-0AE3AC431609}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{23408EF5-BCBA-443D-8689-0AE3AC431609}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{23408EF5-BCBA-443D-8689-0AE3AC431609}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23408EF5-BCBA-443D-8689-0AE3AC431609}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23408EF5-BCBA-443D-8689-0AE3AC431609}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{23408EF5-BCBA-443D-8689-0AE3AC431609}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{23408EF5-BCBA-443D-8689-0AE3AC431609}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
